@@ -1,0 +1,34 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer{
+    height: 200px;
+    background-color: plum;
+}
+
+.bg-light{
+    background-color: #FBBFEC;
+}
+
+.card-impar{
+    margin-left: 70%;
+}
+
+.card-par{
+    margin-left: 10%;
+}
+
+
+
+.card-img-top{
+    border-radius: 50%;
+}
+
