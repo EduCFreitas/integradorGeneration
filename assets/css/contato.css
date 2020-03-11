@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/img/contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nav-bar */
+
+.footer{
+    background-color: #47525E;
+    width: 100%;
+    height: 150px;
+}
+
+.navbar-expand-lg{
+    background-color: #FBBFEC;
+}
+
+.fotoperfil{
+    padding: 10px;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.sobrenos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.direita {
+    flex-direction: row-reverse;
+}
+
+.direita .nomes {
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #FBBFEC!important;
+    color: white!important;
+}
+
+.btn-outline-success {
+    background-color: #a0dba6;
+    color: black;
+    border-color: #a0dba6;
+}
+
+.card-impar{
+    margin-left: 100%;
+}
+
+.card-par{
+    margin-left: 0%;
+}
+
+.card-img-top{
+    border-radius: 50%;
+}
+.nav-item {
+    color: white;
+}
+
+#branco, #branco1, #branco2, #branco3, #braco4, #branco5 {
+    color: white;
+}
+
+
+/* forms */
+
+textarea{
+    resize: none;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 30%;
+    padding: 8% 0;
+    margin:  5% 2%;
+    background-color: #a2cff0;
+    border-radius: 3%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.384) ;   
+   
+}
+
+.formularios{
+    position: relative;
+    margin:4%;
+    max-width: 100%;
+    text-align: left;
+   
+    
+}
+
+.form-control{
+    background-color: #FBBFEC;
+}
+
+.form-group{
+    background-color: #FBBFEC;
+    border-radius: 3%;
+}
+
+#formulario{
+    background-color: rgba(151, 219, 255, 0.800)
+}
+
+#enviaMensagem{
+
+    margin: 0 20%;
+    width: 60%;
+}
+
+
+#enviaMensagem{
+    background-color: #FBBFEC;
+    border: none;
+
+}
+
+#enviaMensagem:hover{
+    background-color: #d77ab1;
+}
+
+#campos{
+    color: white;
+    background-color: white;
+}
+
+
+.form-group ::placeholder 
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }

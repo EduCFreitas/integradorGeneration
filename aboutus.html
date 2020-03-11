@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Nós</title>
     <!-- CSS Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- CSS externo -->
     <link rel="stylesheet" href="assets/css/abautus.css">
-    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+
+
 </head>
+
 <body>
     <!-- Navbar -->
-    <div class="container-fluid">
+    <div class="container-flex" id="navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a id="branco" class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html">Início<span class="sr-only">(current)</span></a>
+                    <li class="nav-item active" >
+                        <a class="nav-link" id="branco1" href="home.html">Início<span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item" >
+                        <a class="nav-link" id="branco2" href="aboutus.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" id="branco3" href="aboutus.html">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="aboutus.html">Sobre nós</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Produtos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
+                        <a class="nav-link" id="branco4" href="contato.html">Contato</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
+                        <a class="nav-link"  id="branco5" href="login.html">Login</a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
@@ -51,70 +52,117 @@
                 </form>
             </div>
         </nav>
-        <main>
-            <div>
-                <h3>Sobre Nós</h3>
+
+
+
+        <br>
+        <br>
+        <br>
+        <!-- sobre nos -->
+        <main id="paragrafosobrenos">
+            <div >
+                <h4>Sobre nós</h4>
+                    <br>
+                    <br>
+                <p> Motivados pelo trabalho de conclusão de curso da modelista Beatriz dos Santos Chinello, a qual observou o déficit da indústria da moda no que diz respeito à inclusão de pessoas com limitação de movimentação e deficiência física, desenvolvemos este site que, muito além de ser uma loja virtual voltada a tal público, também promove sua inclusão. 
+                    Beatriz buscou uma forma de suprir tal déficit da indústria através da criação de peças de vestuário para crianças com osteogênese imperfeita, também conhecida como “síndrome dos ossos de vidro” ou “síndrome dos ossos de cristal”.</p>
+
             </div>
-            <!-- Seção contendo cards -->
-            <section>
-                <aside class="asidesobrenos1">
-                <!-- aside2 -->
-                </aside>
-                <div class="card col-4 card-impar" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="foto">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                
-                <div class="card col-4 card-par" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="foto">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-               
-                    <div class="card col-4 card-impar" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="foto">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                   </aside>
-                   <!-- aside2 -->
-                <aside class="asidesobrenos2">  
+            <br>
+            <br>
+            <br>
 
-                    <div class="card col-4 card-par" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="foto">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+            <!-- integrantes -->
+            <ul class="sobrenos">
+                <li class="item">
+                    <img src="assets/img/alpaca.jpg" alt="" class="fotoperfil">
+                    <div class="nomes">
+                        <h3>Anne Motta</h3>
+                        <h5>Desenvolvedor Full Stack Jr</h5>
+                        <p>Redescobri a tecnologia através de um curso introdutório em c# e me apaixonei. Acredito no desenvolvimento da sociedade através de narrativas pluriversais e o rompimento da estrutura padronizada. Tenho experiência em produção cultural em um viés artiista, sempre busquei me relacionar com narrativas transmídias.</p>
                     </div>
+                </li>
                 
-                    <div class="card col-4 card-impar" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="foto">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
+                <li class="item direita">
+                    <img src="assets/img/alpaca.jpg" alt="" class="fotoperfil">
+                    <div class="nomes">
+                        <h3>João Braga</h3>
+                        <h5>Desenvolvedor Full Stack Jr</h5>
+                        <p>Interessado por tecnologia desde a infância, autodidata, planeja começar a carreira como Desenvolvedor Full Stack pelo bootcamp da Generation Brasil.</p>
                     </div>
-                    <br>
-                    <br>
-                    <br>
-                </aside>
+                </li>
+                <li class="item">
+                    <img src="assets/img/alpaca.jpg" alt="" class="fotoperfil">
+                    <div class="nomes">
+                        <h3>José Eduardo</h3>
+                        <h5>Desenvolvedor Full Stack Jr</h5>
+                        <p>Formado em engenharia elétrica e como técnico em automação industrial, com cerca de 4 anos de experiência profissional na área. Descobriu a área da programação através de algumas disciplinas em sua graduação, inclusive utilizando-a no desenvolvimento de seu TCC. Após formado interessou-se pela tecnologia, buscando aprimorar-se através de cursos online e, após a conclusão de tais cursos, ingressou no bootcamp da Generation Brasil.</p>
+                    </div>
+                </li>
 
-            </section>
+                <li class="item direita">
+                    <img src="assets/img/alpaca.jpg" alt="" class="fotoperfil">
+                    <div class="nomes">
+                        <h3>Laura Brasileiro</h3>
+                        <h5>Desenvolvedor Full Stack Jr</h5>
+                        <p>Tem cerca de 3 anos de experiência em atendimento ao cliente. Descobriu a área da tecnologia ao acaso, durante o ensino médio. Misturando suas duas paixões: tecnologia e saúde..Visando seu crescimento profissional e pessoal.</p>
+                    </div>
+                </li>
+
+                <li class="item">
+                        <img src="assets/img/alpaca.jpg" alt="" class="fotoperfil">
+                        <div class="nomes">
+                            <h3>Sollyson Rodrigues</h3>
+                            <h5>Desenvolvedor Full Stack Jr</h5>
+                            <p>Tem cerca de 4 anos de experiência em atendimento ao cliente. Estudou por cerca de 4 anos no SENAI-SP.
+                            Realizou a piscina da école 42, um bootcamp intensivo com duração de 28 dias, onde teve seu primeiro contato com a programação e se apaixonou completamente pela área.</p>
+                        </div>
+                </li>
+            </ul>
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </main>
+
+
+
 
         <!-- footer -->
         <footer>
 
         </footer>
     </div>
-    
-    
+
+
     <!-- script Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
